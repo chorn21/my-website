@@ -1,0 +1,138 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	#header-text {
+		font-size: 32px;
+	}
+	.footer-menu-item {
+		font-size: 22px;
+	}
+	#headshot {
+	    width: 250px;
+	    height: 250px;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+	#header-text {
+		font-size: 32px;
+	}
+	.footer-menu-item {
+		font-size: 22px;
+	}
+	#headshot {
+	    width: 150px;
+	    height: 150px;
+	}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+	#header-text {
+		font-size: 32px;
+	}
+	.footer-menu-item {
+		font-size: 22px;
+	}
+	#headshot {
+	    width: 150px;
+	    height: 150px;
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	#header-text {
+		font-size: 44px;
+	}
+	.footer-menu-item {
+		font-size: 24px;
+	}
+	#headshot {
+	    width: 250px;
+	    height: 250px;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	#header-text {
+		font-size: 44px;
+	}
+	.footer-menu-item {
+		font-size: 24px;
+	}
+	#headshot {
+	    width: 250px;
+	    height: 250px;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	#header-text {
+		font-size: 44px;
+	}
+	.footer-menu-item {
+		font-size: 24px;
+	}
+	#headshot {
+	    width: 250px;
+	    height: 250px;
+	}
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+	#header-text {
+		font-size: 44px;
+	}
+	.footer-menu-item {
+		font-size: 24px;
+	}
+	#headshot {
+	    width: 250px;
+	    height: 250px;
+	}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+	#header-text {
+		font-size: 44px;
+	}
+	.footer-menu-item {
+		font-size: 22px;
+	}
+	#headshot {
+	    width: 250px;
+	    height: 250px;
+	}
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+	#header-text {
+		font-size: 60px;
+	}
+	.footer-menu-item {
+		font-size: 30px;
+	}
+	#headshot {
+	    width: 300px;
+	    height: 300px;
+	}
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+	#header-text {
+		font-size: 72px;
+	}
+	.footer-menu-item {
+		font-size: 36px;
+	}
+	#headshot {
+	    width: 300px;
+	    height: 300px;
+	}
+}

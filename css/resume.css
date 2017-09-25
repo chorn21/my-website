@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Denver';
+    src: url('denver-font/Denver-Regular.eot');
+    src: url('denver-font/Denver-Regular.woff') format('woff'),
+         url('denver-font/Denver-Regular.ttf') format('truetype'),
+         url('denver-font/Denver-Regular.svg#Denver-Regular') format('svg');
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+#main {
+	margin-top: 15px;
+}
+
+#header {
+	vertical-align: middle;
+	font-family: 'Denver', sans-serif;
+}
+
+#headshot-mini {
+	width: 100px;
+	height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 12px 0 #666;
+    margin: 15px 0;
+}
+
